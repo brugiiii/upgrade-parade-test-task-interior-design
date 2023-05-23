@@ -1,2 +1,10 @@
-@import './common';
-@import './example';
+@import './base/variables';
+@import './base/global';
+
+@import './layout/pageHeader';
+
+@import './components/hero';
+@import './components/about';
+@import './components/activity';
+
+@import './layout/pageFooter';
